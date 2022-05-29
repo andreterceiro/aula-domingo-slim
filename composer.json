@@ -1,0 +1,22 @@
+{
+    "name": "alexandrexandecar/aula-slim",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files":[
+            "app/helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexandre Eduardo Cardoso",
+            "email": "aleducardoso@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "league/plates": "^3.4",
+        "slim/psr7": "^1.5"
+    }
+}
