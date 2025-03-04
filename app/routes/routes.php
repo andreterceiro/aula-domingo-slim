@@ -9,4 +9,5 @@ return function (App $app) {
     $app->get('/', [HomeController::class, 'index']);
     $app->get('/user/create', [UserController::class, 'index']);
     $app->post('/user/store', [UserController::class, 'store']);
+    $app->get('/user/view', [UserController::class, 'view']);
 };
